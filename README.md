@@ -1,14 +1,18 @@
 # goyoe-hosts
 说在前面
+
 hosts不能上YouTube看视频！！！
 hosts不能上YouTube看视频！！！
 hosts不能上YouTube看视频！！！
+
 重要的事情讲三遍
 
 使用方法
+
 Widonws系统：
 
  到C:\windows\system32\drivers\etc下查找hosts文件并以记事本打开，然后复制以下谷歌-Hosts代码进去，最后保存。（记得hosts文件是无后缀的哦！）
+ 
 Linux系统
 
  请修改 /etc/hosts 这个文件
@@ -22,19 +26,29 @@ Linux系统
 更改后请做如下操作
 
  Windows
+ 
  开始 -> 运行 -> 输入cmd -> 在CMD窗口输入
  ipconfig /flushdns
+ 
 Linux
+
  终端输入
  sudo rcnscd restart
  对于systemd发行版，请使用命令
  sudo systemctl restart NetworkManager
  如果不懂请都尝试下
-Mac OS X终端输入
+ 
+Mac OS X
+
+终端输入
  sudo killall -HUP mDNSResponder
+ 
  Android
+ 
  开启飞行模式 -> 关闭飞行模式
+ 
 通用方法
+
  拔网线(断网) -> 插网线(重新连接网络)
  
 
